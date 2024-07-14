@@ -1,0 +1,91 @@
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+  --Primary-500: #1c4e8e;
+}
+
+.custom-text {
+  font-family: IRANSans !important;
+  font-weight: normal; /* Adjust weight as needed */
+  font-size: large;
+}
+#input-with-sx-label,
+#outlined-adornment-password-label,
+#input-with-sx,
+#outlined-adornment-password {
+  font-family: "Montserrat", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.css-1jrn2fe-MuiGrid-root {
+  align-items: center;
+}
+.css-1y8ugea {
+  margin: 0 !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.css-q46f9q-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 3px solid var(--color-5) !important;
+}
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  margin: 4px 0 !important;
+  padding: 0 !important;
+}
+.css-oe0os1-MuiSvgIcon-root {
+  margin: 4px 0 !important;
+}
+.css-oe0os1-MuiSvgIcon-root,
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root,
+.css-10drtbx-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-bn8pyn-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: var(--color-5);
+}
+
+.logo-size {
+  width: 244px;
+  height: 244px;
+}
+.custom-color {
+  color: #ffffff !important;
+  background: var(--color-5) !important;
+}
+.disabled-color-button {
+  color: #ffffff !important;
+  background: #3f4064;
+}
+.red-color {
+  color: var(--color-5) !important;
+}
+.custom-link {
+  color: gray !important;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.custom-link.equal {
+  margin-right: 60px;
+}
+.custom-link:hover {
+  color: var(--color-5) !important;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: underline !important;
+}
+.css-1di4dcx-MuiPaper-root-MuiGrid2-root {
+  box-shadow: none !important;
+  border-left: none !important;
+}
+@media (min-width: 600px) {
+  .css-1di4dcx-MuiPaper-root-MuiGrid2-root {
+    border-left: 1px solid var(--color-5) !important;
+  }
+}

@@ -1,0 +1,185 @@
+
+
+
+
+#nav_container{
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 2px black;
+}
+
+#logo{
+    width: 241px;
+    height: 80px;
+
+    padding: 0px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#search_main_cont{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#filter{
+    height: 45px;
+    background-color: #B6013C;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 22px;
+    padding: 10px 8px;
+}
+
+
+#search_input_cont{
+    width: 100%;
+    position: relative;
+    font-family: iransans;
+}
+
+#search{
+    width: 100%;
+    padding-right: 33px;
+    padding-bottom: 0px;
+    height: 45px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    border-top: 3px solid #A5A9AC33;
+    border-bottom: 3px solid #A5A9AC33;
+}
+
+#search_input_cont i{
+    font-size: 21px;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
+::-webkit-search-cancel-button{
+    display: none;
+}
+
+
+#search_submit{
+    background-color: #B6013C;
+    color: white;
+    padding: 3px 18px 3px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    align-items: center;
+    font-family: iransans;
+}
+
+
+#un_list{
+    display: flex;
+    justify-content: right;
+    font-family: iransans;
+}
+
+#un_list li a{
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#category_icon{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-left: 3px;
+    position: relative;
+    top: 3px;
+}
+
+#icons{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+#icon_fire{
+    color: rgb(255, 81, 0);
+    font-size: 18px;
+    margin-left: 3px;
+    position: relative;
+    top: 1.5px;
+}
+
+
+#profile_card_cont{
+    position: relative;
+    left: 10px;
+}
+
+#profile_card{
+    display: flex;
+    font-family: iransans;
+    flex-direction: row;
+    box-shadow: 0px 3px 4px rgb(151, 151, 151);
+    height: 50px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#profile_image{
+    border-radius: 50%;
+    background-image: url("../../images/chevrolet-corvette-c7-need-for-speed-heat-4k-c3.jpg");
+    background-size: cover;
+}
+
+#person_icon_cont{
+    background-color: #f1f1f1b4;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#person_icon_cont i{
+    font-size: 40px;
+    position: relative;
+    bottom: 2px;
+}
+
+#username{
+    padding-right: 8px;
+    padding: 8px 8px;
+    font-size: 18px;
+}
+
+
+#wallet_card{
+    display: flex;
+    font-family: iransans;
+    flex-direction: row;
+    box-shadow: 0px 3px 4px rgb(151, 151, 151);
+    height: 50px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#wallet_balance{
+    padding-right: 8px;
+    padding: 8px 8px;
+    font-size: 18px;
+}
+
+
+#wallet_icon_cont{
+    background-color: #f1f1f1b4;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#wallet_icon_cont i{
+    font-size: 35px;
+    position: relative;
+    bottom: 0px;
+
+}
+

@@ -1,0 +1,49 @@
+#main_cont{
+    box-shadow: 0px 0px 10px 4px rgb(138, 138, 138);
+    border-radius: 15px;
+    height: 300px;
+}
+
+
+#text_cont{
+    padding: 25px 30px 25px 20px;
+    background:linear-gradient(#eae7dc , #d8c3a5, #8e8d8a) ;
+    border-radius: 0px 15px 15px 0px; 
+}
+
+#title{
+    font-size: 38px;
+    font-family: iransans;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+#text{
+    font-size: 26px;
+    font-family: iransans;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+#text_cont button{
+    background-color: #fd2d1f;
+    padding: 8px 25px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+#text_cont button:hover{
+    background-color: red;
+}
+
+#image_cont{
+    padding: 0px;
+}
+
+#image_cont img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px 0px 0px 15px;
+}

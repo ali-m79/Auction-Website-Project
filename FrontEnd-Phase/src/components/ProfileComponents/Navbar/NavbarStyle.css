@@ -1,0 +1,114 @@
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+}
+.mynav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: var(--white-500);
+  overflow: hidden;
+  transition-duration: 0.5s;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 2px solid var(--color-3);
+}
+
+/* navbar top */
+.head-nav {
+  height: 48px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: var(--color-3);
+  background: var(--white-500);
+}
+.menuIcon {
+  cursor: pointer;
+  fill: var(--color-2);
+}
+.closeIcon {
+  cursor: pointer;
+  fill: var(--color-2);
+  margin: 5px 10px;
+}
+/*end of navbar top */
+
+/*navbar main*/
+.nav-link-custome,
+.nav-link-custome-header {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  text-decoration: none;
+  width: 188px;
+  height: 40px;
+  font-size: 13px;
+  margin: 10px 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  border-radius: 8px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.nav-link-custome:hover {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-5) !important;
+  border: 2px solid var(--color-3);
+}
+.nav-link-custome-header:hover {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-5) !important;
+}
+.activeTab {
+  background-color: var(--color-1);
+}
+.logOutIcon {
+  cursor: pointer;
+}
+.navbarIconClass {
+  cursor: pointer;
+  fill: var(--color-2);
+}
+.nav-color {
+  color: var(--color-3) !important;
+}
+.nav-log-out {
+  border-top: 2px solid var(--color-3);
+  border-radius: 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  text-decoration: none;
+  width: 188px;
+  height: 40px;
+  font-size: 13px;
+  margin: 10px 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  border-radius: 8px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.nav-menu-icons {
+  border-bottom: 2px solid var(--color-3);
+}
+/*end of navbar main*/

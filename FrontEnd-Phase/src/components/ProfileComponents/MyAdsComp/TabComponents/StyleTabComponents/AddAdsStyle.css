@@ -1,0 +1,60 @@
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --color-6: #a59a33;
+  --color-info: #0288d1;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: rgba(165, 169, 172, 0.2);
+  --white-500: #ffffff;
+  --color-border: #a59a331f;
+}
+.main-parent-ads .parent-form .form-style {
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.main-parent-ads .parent-form {
+  gap: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+#createAdsButton {
+  background-color: var(--color-border);
+  color: var(--color-4);
+  border-radius: 8px;
+  border: 2px solid var(--color-4);
+  min-height: 45px;
+}
+.english-li,
+.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  direction: ltr !important;
+  color: var(--color-4) !important;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", serif !important;
+}
+#detailTextArea2 {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px !important;
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  padding: 5px 10px;
+  resize: vertical;
+  max-height: 200px;
+  min-height: 100px;
+  color: var(--color-4);
+  font-weight: 500;
+}

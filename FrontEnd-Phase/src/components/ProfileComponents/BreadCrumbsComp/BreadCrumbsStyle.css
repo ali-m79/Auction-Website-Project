@@ -1,0 +1,33 @@
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+}
+.breadCrumbsParent {
+  padding: 5px;
+}
+a.breadCrumbsNavlink {
+  text-decoration: none;
+}
+.breadCrumbsNavlink {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-3);
+}
+.breadCrumbsNavlink:hover {
+  color: var(--color-4);
+  text-decoration: underline;
+}
+.breadCrumbsLastItem {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  color: var(--color-5) !important;
+}

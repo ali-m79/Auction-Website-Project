@@ -1,0 +1,20 @@
+{
+    "comments":[
+        {
+            "id":"1",
+            "name":"XBox Series X",
+            "img":"https://m.media-amazon.com/images/I/61BVvNo8E-L._AC_UF894,1000_QL80_.jpg",
+            "lastBid":"220,000",
+            "description":"This is a 9th gen gaming console made by Microsoft",
+            "endTime":"2024-05-20T12:30:40Z"    
+        },
+        {
+            "id":"1",
+            "name":"XBox Series X",
+            "img":"https://m.media-amazon.com/images/I/61BVvNo8E-L._AC_UF894,1000_QL80_.jpg",
+            "lastBid":"220,000",
+            "description":"This is a 9th gen gaming console made by Microsoft",
+            "endTime":"2024-06-21T12:30:40Z"    
+        }
+    ]
+}

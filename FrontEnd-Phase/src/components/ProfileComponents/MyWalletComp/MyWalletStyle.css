@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  font-family: "iransans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.montserrat-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --color-6: #a59a33;
+  --color-info: #0288d1;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: rgba(165, 169, 172, 0.2);
+  --white-500: #ffffff;
+  --color-border: #a59a331f;
+}
+.charge-parent {
+}
+.money-box-parent {
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  background-color: var(--white-500);
+  min-height: 100px;
+  border: 2px solid var(--color-border);
+}
+.money-box-parent .card-title {
+  color: var(--color-3);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.money-box-parent .card-price {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-5);
+}
+.money-box-parent .card-currency {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-5);
+}
+.custome_divider-2 {
+  border-color: var(--color-6) !important;
+  border-width: 2px !important;
+}
+.charing-wallet-parent {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: 2px solid var(--color-border);
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--white-500);
+}
+.charing-wallet-parent .charge-title {
+  color: var(--color-3) !important;
+}
+.charing-wallet-parent .charge-span {
+  color: var(--color-6);
+}
+.charing-wallet-parent .submit-button {
+  cursor: pointer;
+  color: var(--color-1);
+  background-color: var(--color-5);
+}
+.charing-wallet-parent .submit-button:hover {
+  cursor: pointer;
+  color: var(--color-1);
+  background-color: var(--color-6) !important;
+}
+.css-mnqx6b-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.charing-wallet-parent .price-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.36) !important;
+  border: 2px solid var(--color-border);
+}
+.charing-wallet-parent .price-button:hover {
+  border: 2px solid var(--color-4);
+}
+.price-button span:first-child {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-3) !important;
+  font-weight: 500 !important;
+}
+.price-button span:nth-child(2) {
+  color: var(--color-3) !important;
+  font-weight: 500 !important;
+}
+#filled-adornment-amount {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-4);
+  font-weight: 600;
+  direction: ltr !important;
+  padding: 8.5px 10px !important;
+}
+#filled-adornment-amount::placeholder {
+  text-align: end !important;
+  font-family: "IRANSansWeb", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.css-1tqoo6p-MuiInputBase-root-MuiFilledInput-root::after {
+  /*To Change The Color Of Border Bottom*/
+  border-bottom: 2px solid var(--color-5) !important;
+  left: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: 0;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  pointer-events: none;
+}
+/*Withdrawn Money Component*/
+.withdrawn {
+}
+.withdrawn .top-withdrawn {
+}
+.withdrawn .bottom-withdrawn {
+}
+.notice_parent {
+  border: 3px solid rgba(255, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgba(237, 72, 72, 0.05);
+}
+.notice_parent .notice_account {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+  line-height: 30px;
+  color: red !important;
+}
+.info_parent {
+  border: 3px solid rgba(2, 136, 209, 0.12);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgba(2, 136, 209, 0.05);
+}
+.info_parent .info_p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+  line-height: 30px;
+  color: var(--color-info);
+}
+.withdrawn .custome-chip-3,
+.buy-account-parent .custome-chip-3,
+.show-account-parent .custome-chip-3 {
+  border: 3px solid var(--color-6);
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+.box-withdrawn-component {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border: 2px solid var(--color-border);
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--white-500);
+}
+.span-manual {
+  line-height: 30px;
+  font-size: 14px;
+  color: var(--color-6);
+}
+.span-number {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-5);
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.box-withdrawn-component .submit-button {
+  cursor: pointer;
+  color: var(--color-1);
+  background-color: var(--color-5);
+}
+.box-withdrawn-component .submit-button:hover {
+  cursor: pointer;
+  color: var(--color-1);
+  background-color: var(--color-6) !important;
+}
+.IRClassName p {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-5);
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#shaba-textFilled {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-4);
+  font-weight: 600;
+  direction: ltr !important;
+  padding: 8.5px 10px !important;
+}
+#shaba-textFilled::placeholder {
+  text-align: end !important;
+  font-family: "IRANSansWeb", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.shaba-notice-title {
+  color: red;
+  font-weight: 600 !important;
+}
+.shaba-notice-des {
+  color: var(--color-6);
+  font-weight: 500 !important;
+  text-align: justify;
+}
+.shaba-notice-caption {
+  color: var(--color-3);
+  font-weight: 400 !important;
+  text-align: justify;
+}
+.date-time-span {
+  color: var(--color-6);
+  font-size: 16px;
+  font-weight: 600;
+}
+.english-number-span {
+  font-family: "Montserrat", sans-serif !important;
+  color: var(--color-5);
+  font-size: 14px;
+  font-weight: 600;
+}
+/*End Of Withdrawn Money Components*/
+/*Special Account Components*/
+.buy-account-parent {
+}
+.buy-account-title {
+}
+.buy-account-title h5 {
+  font-weight: 600;
+  color: var(--color-6);
+}
+.buy-account-description p {
+  color: var(--color-3);
+  text-align: justify;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (min-width: 600px) {
+  .buy-account-description p {
+    color: var(--color-3);
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+.special_card_parent {
+  border: 2px solid var(--color-3);
+  min-height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+.special_card_parent:hover {
+  transform: scale(1.05);
+}
+.special_card_parent.selected {
+  border: 2px solid var(--color-4);
+  box-shadow: 0 0 10px rgba(232, 90, 79, 0.15);
+}
+.custome_divider-4 {
+  border-color: var(--color-3) !important;
+  border-width: 2px !important;
+}
+.custome_divider-selected {
+  border-color: var(--color-4) !important;
+  border-width: 2px !important;
+}
+#disscountTextFilled {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-5);
+  padding-top: 0 !important;
+  min-height: 36.5px !important;
+  padding-bottom: 0 !important;
+  direction: ltr !important;
+}
+#disscountTextFilled::placeholder {
+  font-family: "IRANSansWeb", Arial, sans-serif;
+  color: var(--color-4);
+  font-size: 14px;
+  text-align: end !important;
+}
+
+/*End Of Special Account Components*/

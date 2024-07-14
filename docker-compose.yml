@@ -1,0 +1,77 @@
+version: '3.8'
+
+x-service-volumes: &service-volumes
+  - ./:/app/:rw,cached
+
+x-database-variables: &database-variables
+  POSTGRES_DB: postgres
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: erfanCr7
+
+x-app-variables: &app-variables
+  <<: *database-variables
+  POSTGRES_HOST: postgres
+
+
+services:
+
+  web:
+      image: erphh/bidwin-docker:3
+      ports: 
+        - 8000:8000
+      command: >
+               sh -c " python manage.py runserver 0.0.0.0:8000 &&
+                python manage.py migrate"
+       
+      volumes: *service-volumes
+      environment: *app-variables
+      depends_on:
+        - db_migrate
+        - postgres
+      links: 
+      - postgres
+      
+      
+      
+  db_migrate:
+      image: erphh/bidwin-docker:3
+      command: >
+               sh -c "python manage.py makemigrations &&
+                python manage.py migrate"
+      environment: *app-variables
+      volumes: *service-volumes
+      depends_on:
+        - postgres
+      deploy:
+        restart_policy:
+          condition: on-failure
+          delay: 5s
+          max_attempts: 3
+          window: 120s
+      
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment: *database-variables
+
+  frontend:
+      image: erphh/bidwin-docker:1
+      ports: 
+        - :8080:8080
+  enginx:
+      container_name: nginx
+      image: erphh/bidwin-nginx:latest
+      ports: 
+        - 80:8080
+      volumes: *service-volumes
+      depends_on:
+        - web
+        - frontend
+
+
+
+
+  
+
+

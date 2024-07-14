@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: "iransans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+}
+
+.contentCardParent {
+  border: 2px solid var(--color-2);
+  border-radius: 8px;
+  background-color: var(--white-500);
+}
+
+.titleClass {
+  color: var(--color-3) !important;
+  font-weight: 500;
+}
+.iconClassNameTitle {
+  width: 30px;
+  height: 30px;
+}
+.accorParent {
+  width: 100%;
+  background-color: var(--color-1) !important;
+}
+.accorParent .iconClassName {
+  fill: var(--color-4) !important;
+}
+.accorParent
+  .titleAccordian
+  .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-o4b71y-MuiAccordionSummary-content {
+  color: var(--color-4) !important;
+  font-weight: 600;
+  font-size: 16px !important;
+}
+.accorParent .detailClassName {
+  background-color: var(--white-500) !important;
+  border-radius: 10px 10px 0 0;
+  border-top: 3px solid var(--color-4);
+}
+.accorParent .pClassName {
+  font-size: 13px !important;
+  text-align: justify;
+  color: var(--color-3);
+}
+.accorParent .questionClassName {
+  color: var(--color-5);
+  font-weight: 500;
+  font-size: 15px !important;
+}
+.accorParent .answerClassName {
+  color: var(--color-3);
+  font-size: 13px !important;
+  text-align: justify;
+}

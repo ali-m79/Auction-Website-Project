@@ -1,0 +1,46 @@
+#pd_container{
+    padding: 25px 40px;
+}
+
+#pd_container p{
+
+    font-family: iransans;
+    font-size: 34px;
+    color: black;
+}
+
+#pd_container p i{
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#pd_container div{
+    width: 100%;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+}
+
+#pd_container a{
+    color: black;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-family: iransans;
+
+    transition-duration: 0.4s;
+}
+
+#pd_container a:hover{
+    color: #B6013C;
+    transition-duration: 0.4s;
+}

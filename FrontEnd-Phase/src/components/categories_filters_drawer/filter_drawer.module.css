@@ -1,0 +1,36 @@
+
+
+#dra_main_container{
+    width: 100px;
+    position: relative;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+#drawer_button{
+    width: 100%;
+    border: none;
+    background-color: #eae7dc;
+    font-family: iransans;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#drawer_button i{
+    color: #e85a4f;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+
+#drawer_main_cont{
+    width: 350px;
+    scrollbar-width: none;
+    padding: 10px;
+}
+::-webkit-scrollbar{display: none;}

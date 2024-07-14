@@ -1,0 +1,68 @@
+#tab_container{
+
+    box-shadow: -3px 0px 2px rgb(192, 192, 192);
+}
+
+
+#tab_container ul{
+    padding: 0px;
+    
+}
+
+#tab_container ul a{
+    text-decoration: none;
+
+}
+
+#tab_container ul a li{
+    padding: 15px 1vw 1px ;
+    width: 100%;
+    box-shadow: 0px 2px 3px rgb(188, 188, 188);
+}
+
+#tab_container ul p{
+    color: #585858;
+    font-size: 18px;
+    font-family: iransans;
+
+    transition-duration: 0.4s;
+}
+
+#tab_container ul p:hover{
+    color: #B6013C;
+    transition-duration: 0.4s;
+}
+
+#tab_container ul p:active{
+    color: #B6013C;
+}
+
+#tab_container ul p i{
+    margin-left: 7px;
+    font-size: 25px;
+
+    position: relative;
+    top: 5px;
+}
+
+#btn_li{
+    padding: 15px 1vw 10px ;
+    width: 100%;
+    box-shadow: 0px 2px 3px rgb(188, 188, 188);
+}
+
+#btn_li button {
+  background-color: #B6013C;
+  font-family: iransans;
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+
+  color: white;
+  transition-duration: 0.3s;
+}
+
+#btn_li button:hover{
+    box-shadow: 0px 0px 12px #B6013C;
+    transition-duration: 0.3s;
+  }

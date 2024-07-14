@@ -1,0 +1,36 @@
+{
+    "productName":"Playstation 6",
+    "breadcrumbsNames":["بیدوین", "غذا و نوشیدنی", "فست فود", "لورم اپسوم"],
+    "category":["کنسول"],
+    "images":["https://blog.playstation.com/tachyon/2023/10/cd56722db7b991b3d7a33f1bafd55f80d0ac553d.png",
+    "https://media.gamestop.com/i/gamestop/11108141_ALT01?$pdp$",
+    "https://m.media-amazon.com/images/I/71PMC4DWWFL.jpg"],
+    "price":{
+        "baseBid":"75,000",
+        "highestBid":"125,000"
+    },
+    "release_date": "2024-07-21T12:30:40Z",
+    "owner":{
+        "sellerName":"Alireza",
+        "sellerIcon":"https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yX3Bob3RvX29mX2FfYmxhY2tfYnVzaW5lc3NtYW5faXNvbGF0ZWRfb25fb2ZmX19lZmMxZDllNC1iNzQ5LTQ2NzMtYjRmMS1lYjI0NTBiYzNiOGRfMS5qcGc.jpg",
+        "satisfactionRate":98.8,
+        "satisfactions":105,
+        "disSatisfactions":2,
+        "numberOfSuccessfullSells":107,
+        "signUpDate":"1398/03/24"
+    },
+    "estimatedTime":5,
+    "numberOfBids":120,
+    "description":"مجتمع کشت و صنعت «روژین تاک» در سال 1380 با سرمایه‌گذاری بخش خصوصی تاسیس شد و در سال 1382 به بهره‌برداری رسید. کارخانه‌ی این شرکت در استان کرمانشاه در زمینی به مساحت 24 هکتار که 11 هکتار آن صنعتی است، بنا شده و مجهز به ماشین‌آلات صنایع غذایی ساخت شرکت‌های Ing.rossi و Catelli با ظرفیت دریافت روزانه‌ی 4200 تن گوجه‌فرنگی است. در انتخاب ماشین‌آلات همواره تلاش بر این بوده است تا با حفظ حداکثر خواص مفید گوجه‌فرنگی ...",
+    "comments":[
+        {
+            "senderName":"Mohammad",
+            "comment":"این کالا بد نیست"
+        },
+        {
+            "senderName":"Ehsan",
+            "comment":"این کالا فوق العاده‌س"
+        }
+    ]
+
+}

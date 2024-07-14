@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  font-family: "iransans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.montserrat-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --color-6: #a59a33;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+}
+.flex-row-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.flex-column-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.personal-info-tabs {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--color-3);
+  padding: 0 10px !important;
+  min-width: auto !important;
+}
+.personal-info-tabs.Mui-selected {
+  color: var(--color-5) !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: var(--color-4) !important;
+}
+/***Show Information******************************************************************************************************/
+.showInformation {
+}
+.custome_divider {
+  width: "100%";
+  color: var(--color-5);
+}
+.showInformation .image_parent img {
+  width: 132px !important;
+  height: 132px !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--color-2);
+  background-color: var(--color-1);
+}
+.showInformation .membership_parent,
+.personal-info-parent {
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  border-radius: 8px;
+}
+.showInformation .special-account {
+  line-height: 24px;
+  border: 3px solid var(--color-2);
+  margin: 5.6px 0;
+  border-radius: 8px;
+  padding: 0 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-3);
+}
+.showInformation .manual-account {
+  line-height: 24px;
+  border: 3px solid var(--color-2);
+  margin: 5.6px 0;
+  border-radius: 8px;
+  padding: 0 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-3);
+}
+.showInformation .remaining-days {
+  gap: 5px;
+  line-height: 24px;
+  border: 3px solid var(--color-2);
+  margin: 5.6px 0;
+  border-radius: 8px;
+  padding: 0 5px;
+}
+
+.remaining-days span:first-child {
+  font-family: "Montserrat", serif !important;
+  font-weight: 600;
+  color: var(--color-6);
+}
+.remaining-days span:nth-child(2) {
+  color: var(--color-3);
+}
+#buy-special-account {
+  line-height: 24px !important;
+  border-radius: 8px !important;
+  padding: 0px 5px !important;
+  border: 3px solid;
+}
+.membership_span {
+  font-family: "Montserrat", serif !important;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-3);
+  font-size: 20px;
+  line-height: 40px;
+}
+.address-grid {
+}
+.address-grid .address-content_parent {
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  border-radius: 8px;
+  padding: 10px;
+}
+.address-grid .notice_parent {
+  border: 3px solid rgba(255, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.address-grid .notice_address {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+  line-height: 30px;
+  color: red;
+}
+.span-content-address {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--color-3);
+}
+.custome-chip {
+  border: 3px solid rgba(233, 128, 116, 0.12);
+  padding: 0 5px;
+  border-radius: 16px;
+  color: var(--color-5);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+}
+.number-font {
+  font-family: "Montserrat", serif !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*Add and Edit Address**********/
+.add_address_parent {
+}
+.add_address_parent .address_form,
+.edit_info_parent .info_form {
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+#detailTextArea {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px !important;
+  border: 3px solid rgba(142, 141, 138, 0.12);
+  padding: 5px 10px;
+  resize: vertical;
+  max-height: 120px;
+  min-height: 40px;
+  color: var(--color-4);
+  font-weight: 500;
+}
+#detailTextArea:focus-visible {
+  outline: none;
+}
+#textfilled1,
+#textfilled2,
+#textfilled3,
+#textfilled4,
+#textfilled5,
+#textfilledpro5,
+#textfilledpro6,
+#demo-simple-select-standard1,
+#demo-simple-select-standard3 {
+  color: var(--color-4);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", serif !important;
+}
+#demo-simple-select-standard2 {
+  color: var(--color-4);
+  font-size: 16px;
+  font-weight: 500;
+}
+#textfilled1::placeholder,
+#textfilled2::placeholder,
+#textfilled3::placeholder,
+#textfilled4::placeholder,
+#textfilled5::placeholder,
+#detailTextArea::placeholder {
+  font-family: "IRANSansWeb", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+/*End Of Add and Edit Address**********/
+
+/*Edit Personal Information************/
+.edit_info_parent {
+}
+#profileimage {
+  width: 132px !important;
+  height: 132px !important;
+  border-radius: 50% !important;
+  border: 2px solid var(--color-4);
+  background-color: var(--color-1);
+  cursor: pointer;
+}
+#textfilledpro1,
+#textfilledpro2 {
+  color: var(--color-4);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "IRANSansWeb", Arial, sans-serif !important;
+}
+#textfilledpro3,
+#textfilledpro4,
+#textfilledpro5,
+#textfilledpro6 {
+  color: var(--color-4);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", serif !important;
+}
+
+#textfilledpro1::placeholder,
+#textfilledpro2::placeholder,
+#textfilledpro3::placeholder,
+#textfilledpro4::placeholder,
+#textfilledpro5::placeholder,
+#textfilledpro6::placeholder {
+  font-family: "IRANSansWeb", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+}
+.daysItem,
+.yearItem {
+  color: var(--color-5) !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--color-1) !important;
+}
+.monthItem {
+  color: var(--color-5) !important;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--color-1) !important;
+}
+
+/*End Of Edit Personal Information*****/
+
+/***End Of Show Information***********************************************************************************************/

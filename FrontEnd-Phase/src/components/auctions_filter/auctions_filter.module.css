@@ -1,0 +1,47 @@
+#main_cont{
+    background-color: #eae7dc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 1px solid black;
+}
+
+#main_cont p{
+    font-family: iransans;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#main_cont button{
+    padding: 3px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px ;
+    font-family: iransans;
+    color: #6b6b6b;
+    border: 1px solid black;
+    font-size: 16px;
+    margin-top: 15px;
+    transition-duration: 0.5s;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #main_cont{
+        padding: 15px 5px;
+    }
+
+    #main_cont button{
+        font-size: 13px;
+    }
+
+    #main_cont p{
+        font-size: 18px;
+    }
+}

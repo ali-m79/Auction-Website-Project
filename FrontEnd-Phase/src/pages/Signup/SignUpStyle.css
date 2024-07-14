@@ -1,0 +1,138 @@
+.custom-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: url() no-repeat;
+  background-size: cover;
+  background-position: right !important;
+}
+:root {
+  --color-1: #eae7dc;
+  --color-2: #d8c3a5;
+  --color-3: #8e8d8a;
+  --color-4: #e98074;
+  --color-5: #e85a4f;
+  --Dark-500: #101316;
+  --Gray-500: #a5a9ac;
+  --Gray-200: #a5a9ac33;
+  --white-500: #ffffff;
+  --Primary-500: #1c4e8e;
+}
+
+.wrapper {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+}
+.wrapper-authen-code {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #000;
+  border-radius: 10px;
+}
+.css-mhc70k-MuiGrid-root > .MuiGrid-item {
+  padding-left: 0 !important;
+}
+
+#username,
+#email,
+#email-label,
+#lastName-label,
+#firstName-label,
+#username-label,
+#nationalcode-label,
+#phonenumber-label,
+#password-label,
+#confirmpassword-label {
+  font-family: "Montserrat", serif !important;
+
+  font-weight: 400;
+  font-style: normal;
+}
+#email-label.Mui-focused,
+#lastName-label.Mui-focused,
+#firstName-label.Mui-focused,
+#username-label.Mui-focused,
+#nationalcode-label.Mui-focused,
+#phonenumber-label.Mui-focused,
+#password-label.Mui-focused,
+#confirmpassword-label.Mui-focused {
+  color: var(--color-5);
+}
+.css-hwkq3c-MuiInputBase-root-MuiFilledInput-root::after,
+.css-953pxc-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 3px solid var(--color-5) !important;
+
+}
+
+#lastName-label,
+#firstName-label {
+  direction: ltr;
+}
+.custome-label-span {
+  align-self: flex-start;
+  color: #000000de;
+}
+.css-3z9lcs-MuiGrid-root > .MuiGrid-item {
+  padding-left: 32px !important;
+}
+.error-icon-position {
+  align-self: flex-start;
+  margin: 4px 0 0 5px;
+}
+#input-with-icon-textfield-helper-text {
+  color: #fff;
+}
+.custom-link-white {
+  color: #fff !important;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.custom-link-white.equal {
+  margin-right: 60px;
+}
+.custom-link-white:hover {
+  color: var(--color-5) !important;
+
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: underline !important;
+}
+#timer-received-code {
+  cursor: pointer;
+  color: #3f4064;
+  font-size: 15px;
+  font-weight: 400;
+}
+.verificationInputsParent {
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0 10px;
+}
+.verificationInputs {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: 1px solid var(--color-5);
+  color: var(--color-5);
+
+  background-color: transparent;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.disabled-color-button-code {
+  color: var(--color-5) !important;
+
+  background-color: #3f4064;
+}

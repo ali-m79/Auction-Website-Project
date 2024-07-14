@@ -1,0 +1,48 @@
+.bigIcon{
+    width: 100%;
+    aspect-ratio: 1 / 0.85;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 10px 0px #00000080;
+}
+.smallIcon{
+    width: 15%;
+    aspect-ratio: 1 / 1;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 10px 0px #00000080;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.smallIcon:hover{
+    opacity: 0.7;
+}
+.smallIcon:active{
+    opacity: 0.5;
+}
+.smallIconContainer{
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.smallIconContainer::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+  }
+  
+  .smallIconContainer::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .smallIconContainer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  .smallIconContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  .smallIconContainer::-webkit-scrollbar-button {
+    display: none;
+  }

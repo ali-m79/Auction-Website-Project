@@ -1,0 +1,26 @@
+#accordins_cont{
+    background-color: #eae7dc;
+    width: 100%;
+}
+
+#accordins_cont path{
+    color: #f33e27;
+}
+
+.title{
+   font-family: iransans;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+#check_box_container label{
+    margin: 0px;
+}
+
+#check_box_container span{
+    padding: 5px;
+}
+
+#price_container{
+    color:black;
+}

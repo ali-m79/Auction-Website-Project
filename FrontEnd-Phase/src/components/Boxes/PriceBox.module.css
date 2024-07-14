@@ -1,0 +1,19 @@
+#priceBox{
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;   
+    background-color: #eae7dc;
+    place-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    box-shadow: 0px 4px 10px 0px #00000040;
+}
+#submitBidButton{
+    font-family: B_nazanin;
+    color:white;
+    width: 128px;
+    height: 40px;
+    font-size: large;
+}

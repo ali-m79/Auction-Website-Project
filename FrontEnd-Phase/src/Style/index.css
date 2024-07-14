@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: local("IRANSansWeb"), url("../Fonts/IRANSansWeb.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  font-family: "IRANSansWeb" !important;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-family: "IRANSansWeb" !important;
+  overflow-x: hidden;
+}
